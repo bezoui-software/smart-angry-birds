@@ -3,7 +3,7 @@ let slider;
 let counter = 0
 let bottom_pipe_img, top_pipe_img;
 function setup(){
-  createCanvas(window.innerWidth, 600);
+  createCanvas(window.innerWidth, window.innerHeight);
   slider = createSlider(1, 100, 1);
   for (let i=0; i < totalBirds; i++){
     birds.push(new Bird());
